@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.wrapper {
+  width: 1200px;
+  height: 800px;
+}
+
+#background_img {
+  width: 1200px;
+  height: 800px;
+}
