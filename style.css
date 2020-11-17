@@ -17,4 +17,5 @@
 
   border: solid 5px rgb(36, 33, 33);
   border-radius: 10px;
+  box-shadow: 3px 3px 3px lightgray;
 }
