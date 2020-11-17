@@ -13,36 +13,36 @@
   </head>
   <body>
     <div class="wrapper">
-      <img id="background_img" src="images/family_choice_1_edited.JPG" alt="Family Photo Wall" usemap="#clickmap">
+      <img id="background_img" class="img_map" src="images/family_choice_1_edited.JPG" alt="Family Photo Wall" usemap="#clickmap">
 
       <map name="clickmap">
         <!-- row 1 picture coordinates -->
-        <area shape="rect" coords="18, 77, 209, 260" href="#" title="Row 1 Picture 1" alt=" " onclick="test()">
-        <area shape="rect" coords="222, 82, 491, 261" href="#" title="Row 1 Picture 2" alt=" " onclick="test()">
-        <area shape="rect" coords="511, 78, 717, 228" href="#" title="Row 1 Picture 3" alt=" " onclick="test()">
-        <area shape="rect" coords="742, 76, 862, 217" href="#" title="Row 1 Picture 4" alt=" " onclick="test()">
-        <area shape="rect" coords="890, 78, 1004, 220" href="#" title="Row 1 Picture 5" alt=" " onclick="test()">
-        <area shape="rect" coords="1037, 81, 1142, 217" href="#" title="Row 1 Picture 6" alt=" " onclick="test()">
+        <area shape="rect" coords="18, 77, 209, 260" href="#" title="Row 1 Picture 1" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="222, 82, 491, 261" href="#" title="Row 1 Picture 2" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="511, 78, 717, 228" href="#" title="Row 1 Picture 3" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="742, 76, 862, 217" href="#" title="Row 1 Picture 4" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="890, 78, 1004, 220" href="#" title="Row 1 Picture 5" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="1037, 81, 1142, 217" href="#" title="Row 1 Picture 6" alt=" " onclick="test()" class="picture_map">
         <!-- row 2 picture coordinates -->
-        <area shape="rect" coords="32, 287, 215, 456" href="#" title="Row 2 Picture 1" alt=" " onclick="test()">
-        <area shape="rect" coords="234, 288, 495, 457" href="#" title="Row 2 Picture 2" alt=" " onclick="test()">
-        <area shape="rect" coords="535, 254, 701, 425" href="#" title="Row 2 Picture 3" alt=" " onclick="test()">
-        <area shape="rect" coords="726, 254, 887, 421" href="#" title="Row 2 Picture 4" alt=" " onclick="test()">
-        <area shape="rect" coords="911, 251, 1018, 379" href="#" title="Row 2 Picture 5" alt=" " onclick="test()">
-        <area shape="rect" coords="1049, 251, 1149, 377" href="#" title="Row 2 Picture 6" alt=" " onclick="test()">
+        <area shape="rect" coords="32, 287, 215, 456" href="#" title="Row 2 Picture 1" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="234, 288, 495, 457" href="#" title="Row 2 Picture 2" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="535, 254, 701, 425" href="#" title="Row 2 Picture 3" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="726, 254, 887, 421" href="#" title="Row 2 Picture 4" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="911, 251, 1018, 379" href="#" title="Row 2 Picture 5" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="1049, 251, 1149, 377" href="#" title="Row 2 Picture 6" alt=" " onclick="test()" class="picture_map">
         <!-- row 3 picture coordinates -->
-        <area shape="rect" coords="43, 482, 243, 620" href="#" title="Row 3 Picture 1" alt=" " onclick="test()">
-        <area shape="rect" coords="273, 485, 473, 617" href="#" title="Row 3 Picture 2" alt=" " onclick="test()">
-        <area shape="rect" coords="517, 455, 589, 540" href="#" title="Row 3 Picture 3" alt=" " onclick="test()">
-        <area shape="rect" coords="611, 452, 687, 543" href="#" title="Row 3 Picture 4" alt=" " onclick="test()">
-        <area shape="rect" coords="710, 450, 814, 566" href="#" title="Row 3 Picture 5" alt=" " onclick="test()">
-        <area shape="rect" coords="834, 450, 886, 527" href="#" title="Row 3 Picture 6" alt=" " onclick="test()">
-        <area shape="rect" coords="916, 408, 1137, 561" href="#" title="Row 3 Picture 7" alt=" " onclick="test()">
+        <area shape="rect" coords="43, 482, 243, 620" href="#" title="Row 3 Picture 1" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="273, 485, 473, 617" href="#" title="Row 3 Picture 2" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="517, 455, 589, 540" href="#" title="Row 3 Picture 3" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="611, 452, 687, 543" href="#" title="Row 3 Picture 4" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="710, 450, 814, 566" href="#" title="Row 3 Picture 5" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="834, 450, 886, 527" href="#" title="Row 3 Picture 6" alt=" " onclick="test()" class="picture_map">
+        <area shape="rect" coords="916, 408, 1137, 561" href="#" title="Row 3 Picture 7" alt=" " onclick="test()" class="picture_map">
       </map>
     </div>
 
-    <script>
-      // js function to test my image map coordinates
+    <!-- js function to test my image map coordinates -->
+    <script type="text/javascript">
       function test() {
         alert("You clicked on the image map.");
       }
