@@ -64,7 +64,7 @@ body {
   font-size: 32px;
 }
 
-.names {
+.r2p2_names {
   font-size: 22px;
 }
 
@@ -81,19 +81,4 @@ body {
   content: "";
   clear: both;
   display: table;
-}
-
-/* style for creating image modals */
-/* may not actually use modal RETURN TO THIS LATER */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.9);
 }
