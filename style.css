@@ -19,6 +19,7 @@ body {
   writing-mode: vertical-rl;
   text-orientation: upright;
   letter-spacing: -5px;
+  font-size: 20px;
 
   margin: 10px 0px 0px 35px;
   position: fixed;
@@ -33,7 +34,7 @@ body {
 
 .subheader {
   margin-left: 20px;
-  
+  font-size: 18px;
 }
 
 .wrapper {
