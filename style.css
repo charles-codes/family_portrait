@@ -19,11 +19,21 @@ body {
   writing-mode: vertical-rl;
   text-orientation: upright;
   letter-spacing: -5px;
-  /* margin-left: 35px; */
+
   margin: 10px 0px 0px 35px;
   position: fixed;
   left: 0;
   top: 0;
+
+  border: solid 2px var(--offblack);
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+}
+
+.subheader {
+  margin-left: 20px;
+  
 }
 
 .wrapper {
