@@ -12,6 +12,18 @@
 
 body {
   background-color: var(--offwhite);
+  font-family: Didot, 'Times New Roman', Times, serif;
+}
+
+.header {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  letter-spacing: -5px;
+  /* margin-left: 35px; */
+  margin: 10px 0px 0px 35px;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .wrapper {
@@ -39,7 +51,6 @@ body {
 }
 
 .caption_page {
-  font-family: Didot, 'Times New Roman', Times, serif;
   font-size: 32px;
 }
 
