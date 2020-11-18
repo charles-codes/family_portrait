@@ -33,9 +33,25 @@ body {
   border: solid 5px var(--offblack);
   border-radius: 10px;
   box-shadow: 3px 3px 3px lightgray;
-  margin: 5px;
+  margin: 5px 25px 5px 5px;
 
   float: left;
+}
+
+.caption_page {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 32px;
+}
+
+.text_div {
+  padding-top: 270px;
+}
+
+/* clear fix hack */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /* style for creating image modals */
