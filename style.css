@@ -39,8 +39,12 @@ body {
 }
 
 .caption_page {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Didot, 'Times New Roman', Times, serif;
   font-size: 32px;
+}
+
+.dates {
+  font-size: 28px;
 }
 
 .text_div {
