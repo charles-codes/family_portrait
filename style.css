@@ -30,6 +30,7 @@ body {
   border-radius: 10px;
   padding: 5px;
   background-color: white;
+  box-shadow: 3px 3px 3px lightgray;
 }
 
 .subheader {
@@ -76,6 +77,10 @@ body {
 
 .text_div {
   padding-top: 270px;
+}
+
+.text_div_2 {
+  padding-top: 200px;
 }
 
 /* clear fix hack */
