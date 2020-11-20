@@ -38,6 +38,14 @@ body {
   box-shadow: 5px 5px 5px lightgray;
 }
 
+.header:hover {
+  color: var(--offwhite);
+  background-color: var(--offblack);
+  border: solid 2px white;
+  transition: .5s;
+  transition-timing-function: ease-in;
+}
+
 .subheader {
   margin-left: 20px;
   margin-bottom: 5px;
