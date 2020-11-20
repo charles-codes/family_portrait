@@ -40,6 +40,7 @@ body {
 
 .subheader {
   margin-left: 20px;
+  margin-bottom: 5px;
   position: absolute;
   bottom: 0;
   font-size: 18px;
