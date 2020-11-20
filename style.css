@@ -17,12 +17,13 @@ body {
   font-family: Didot, 'Times New Roman', Times, serif;
 }
 
+/* vertical sidebar header */
 .header {
   writing-mode: vertical-rl;
   text-orientation: upright;
   letter-spacing: -5px;
   font-size: 20px;
-  text-shadow: -0.25px 0 var(--red), 0 0.25px var(--red), 0.25px 0 var(--red), 0 -0.25px var(--red);
+  text-shadow: -0.2px 0 var(--red), 0 0.2px var(--red), 0.2px 0 var(--red), 0 -0.2px var(--red);
   color: var(--offblack);
 
   margin: 10px 0px 0px 35px;
@@ -34,7 +35,7 @@ body {
   border-radius: 10px;
   padding: 5px;
   background-color: white;
-  box-shadow: 3px 3px 3px lightgray;
+  box-shadow: 5px 5px 5px lightgray;
 }
 
 .subheader {
