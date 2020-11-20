@@ -8,7 +8,7 @@
 * {
   box-sizing: border-box;
   margin: auto;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   max-height: 700px;
 }
 
@@ -40,8 +40,10 @@ body {
 
 .subheader {
   margin-left: 20px;
+  position: absolute;
+  bottom: 0;
   font-size: 18px;
-  color: var(--offblack);
+  color: var(--offwhite);
 }
 
 .wrapper {
@@ -56,7 +58,7 @@ body {
 
   border: solid 5px var(--offblack);
   border-radius: 10px;
-  box-shadow: 3px 3px 3px lightgray;
+  box-shadow: 1px 1px 1px lightgray;
 }
 
 .img_page {
@@ -99,4 +101,16 @@ body {
 a {
   color: var(--offblack);
   text-decoration: none;
+}
+
+/* footer positioning and style */
+.footer {
+  width: 1800px;
+  height: 50px;
+
+  border-top: solid 3px var(--red);
+  position: sticky;
+  bottom: 0;
+  z-index: -1;
+  background-color: var(--offblack);
 }
