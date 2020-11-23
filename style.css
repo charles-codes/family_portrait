@@ -93,7 +93,7 @@ body {
 
 .dates {
   font-size: 28px;
-  text-decoration: underline;
+  text-decoration: underline var(--red);
 }
 
 .text_div {
