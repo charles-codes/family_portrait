@@ -47,15 +47,8 @@ body {
   transition-timing-function: ease-in;
 }
 
-a:hover {
-  color: var(--offwhite);
-  background-color: var(--offblack);
-  transition: .4s;
-  transition-timing-function: ease-in;
-}
-
-/* subheader text which is actually placed in the footer */
-.subheader {
+/* footer text */
+.footer_text {
   margin-left: 20px;
   margin-bottom: 5px;
   position: absolute;
@@ -80,6 +73,7 @@ a:hover {
   box-shadow: 1px 1px 1px lightgray;
 }
 
+/* style for individual photographs on image pages */
 .img_page {
   border: solid 5px var(--offblack);
   border-radius: 10px;
