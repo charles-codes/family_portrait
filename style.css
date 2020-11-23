@@ -129,6 +129,6 @@ a {
   border-top: solid 3px var(--red);
   position: sticky;
   bottom: 0;
-  z-index: -1;
+  z-index: 1;
   background-color: var(--offblack);
 }
