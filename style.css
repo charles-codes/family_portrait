@@ -54,6 +54,7 @@ a:hover {
   transition-timing-function: ease-in;
 }
 
+/* subheader text which is actually placed in the footer */
 .subheader {
   margin-left: 20px;
   margin-bottom: 5px;
@@ -63,6 +64,7 @@ a:hover {
   color: var(--offwhite);
 }
 
+/* wrapper div which includes background image of portrait wall */
 .wrapper {
   width: 1200px;
   height: 700px;
@@ -70,7 +72,7 @@ a:hover {
 
 #background_img {
   width: 1200px;
-  height: 700px;
+  height: 640px;
   margin: 5px;
 
   border: solid 5px var(--offblack);
