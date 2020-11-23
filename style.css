@@ -15,6 +15,7 @@
 body {
   background-color: var(--offwhite);
   font-family: Didot, 'Times New Roman', Times, serif;
+  color: var(--offblack);
 }
 
 /* vertical sidebar header */
@@ -42,7 +43,14 @@ body {
   color: var(--offwhite);
   background-color: var(--offblack);
   border: solid 2px white;
-  transition: .5s;
+  transition: .4s;
+  transition-timing-function: ease-in;
+}
+
+a:hover {
+  color: var(--offwhite);
+  background-color: var(--offblack);
+  transition: .4s;
   transition-timing-function: ease-in;
 }
 
@@ -89,6 +97,7 @@ body {
 
 .dates {
   font-size: 28px;
+  text-decoration: underline;
 }
 
 .text_div {
@@ -114,8 +123,8 @@ a {
 
 /* footer positioning and style */
 .footer {
-  width: 1800px;
-  height: 50px;
+  width: 100%;
+  height: 40px;
 
   border-top: solid 3px var(--red);
   position: sticky;
